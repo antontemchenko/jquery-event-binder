@@ -1,14 +1,13 @@
 (function( $ ){
     $.fn.extend({
         eventList: [],
-        unbindAndStoreAll: function(){
+        storeEvents: function(){
             var _this = this;
             $.each($._data(_this.get(0), 'events'), function () {
                 $j.each(this, function () {
                     _this.eventList.push({type: this.type, handler: this.handler});
                 });
             });
-            _this.unbind();
             return _this;
         },
         bindStoredEvents: function(){
