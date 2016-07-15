@@ -1,6 +1,6 @@
 # jquery-event-binder
 
-**0.5KB** jQuery plugin to **store**/**restore**/**clone** events of element.
+**0.5KB** jQuery plugin to **store** / **restore** / **clone** events of element.
 
 # Documentation:
 
