@@ -7,10 +7,22 @@
 The plugin extends **jQuery** by **2 methods** and 1 list _(which is creating after store method called)_:
 
  * **storeEvents()**
+
 `.storeEvents()` - no parameters required.
 
-**Description:** Creates a list of all events of an element. After calling this method an element has `eventList` property. 
+**Description:** Creates a list of all events of an element. After calling this method an element has `eventList` property, which you can modify. 
 
+ * **bindStoredEvents()**
+
+`.bindStoredEvents( [elementToBind] )` 
+
+**elementToBind**
+
+Type: element
+
+
+
+**Description:** Creates a list of all events of an element. After calling this method an element has `eventList` property. 
 
 # When to use ?
 
